@@ -1,0 +1,110 @@
+header {
+  text-align: right;
+  border-left: 50px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(139, 137, 134);
+  padding: 45px;
+  background-color: rgb(248, 244, 211);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  }
+
+.fantasia {
+  position: relative;
+  align-items: center;
+}
+
+#image {
+  position: relative;
+ 
+}
+
+#texto1 {
+  position: absolute;
+  text-align: center;
+  font-size: 130px;
+  font-family: fam;
+  left: 100px;
+  top: 450px;
+  color: rgb(24, 24, 23); 
+  
+}
+.container {
+    position:relative;
+    text-align: left;
+        padding-bottom: 5px;
+    padding-top: 5px;
+    
+    
+}   
+  #texto2 { 
+  color: rgb(238, 212, 63);
+  text-align: left;
+  font-size: 30px;
+  font-family: fam;
+  border-top: 150px;
+  font-weight: bolder;
+  
+}
+h1 {
+    font-size: 30px;
+    text-indent: 5%;
+    background-color:rgb(233, 232, 230);
+    text-align: left;
+    font-family: fam;
+    color: rgb(133, 130, 130);
+    
+
+}
+  
+.trailer {
+  width: 60%;
+  margin: 2rem auto;
+} 
+.video {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2);
+  gap: 0.5rem; ;
+  
+  
+}
+.imggaleria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imggaleria {
+  overflow: hidden;
+}
+.alem {
+ color:  rgb(238, 212, 63);
+ font-size: 35px;
+ text-align: center;
+ font-weight: bolder; 
+ font-family: fam;
+ grid-column: 1 / span 5 ;
+ grid-row: 1 ; 
+}
+.texto3 {
+text-align: center; 
+font-size: 20px;
+font-family: fam;
+grid-column: 1 / span 5 ;
+ grid-row: 2 / span 3
+}
+.trailerdofilme {
+  text-align: center;
+  grid-column: 7 / span 6 ;
+  grid-row: 1 / span 6; 
+}
+footer {
+  
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(139, 137, 134);
+  padding: 45px;
+}
